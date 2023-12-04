@@ -225,5 +225,8 @@
     <ClCompile Include="기타\1198 삼각형으로 자르기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="기타\2535 아시아 정보올림피아드.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
