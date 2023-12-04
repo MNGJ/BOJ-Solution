@@ -222,5 +222,8 @@
     <ClCompile Include="이분 탐색\12015 가장 긴 증가하는 부분 수열 2.cpp">
       <Filter>소스 파일\이분 탐색</Filter>
     </ClCompile>
+    <ClCompile Include="기타\1198 삼각형으로 자르기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
