@@ -17,7 +17,66 @@
       <Configuration>Release</Configuration>
       <Platform>x64</Platform>
     </ProjectConfiguration>
-
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BackTracking\14888 연산자 끼워넣기 (BackTracking).cpp" />
+    <ClCompile Include="BackTracking\14889 스타트와 링크 (BackTracking).cpp" />
+    <ClCompile Include="BackTracking\2580 sudoku BackTracking.cpp" />
+    <ClCompile Include="BackTracking\9663 N-Queen.cpp" />
+    <ClCompile Include="Dynamic Programing\10844 쉬운 계단 수.cpp" />
+    <ClCompile Include="Dynamic Programing\11053 가장 긴 증가하는 부분 수열.cpp" />
+    <ClCompile Include="Dynamic Programing\11054 가장 긴 바이토닉 부분 수열.cpp" />
+    <ClCompile Include="Dynamic Programing\12865 평범한 배낭.cpp" />
+    <ClCompile Include="Dynamic Programing\1463 1로 만들기.cpp" />
+    <ClCompile Include="Dynamic Programing\1932.cpp" />
+    <ClCompile Include="Dynamic Programing\2156 포도주 시식.cpp" />
+    <ClCompile Include="Dynamic Programing\2565 전깃줄.cpp" />
+    <ClCompile Include="Dynamic Programing\2579 계단오르기.cpp" />
+    <ClCompile Include="Dynamic Programing\9251 LCS.cpp" />
+    <ClCompile Include="그래프와 순회\24479 알고리즘 수업 - 깊이 우선 탐색 1.cpp" />
+    <ClCompile Include="그리디 알고리즘\11047 동전0.cpp" />
+    <ClCompile Include="그리디 알고리즘\11399 ATM.cpp" />
+    <ClCompile Include="그리디 알고리즘\13305 주유소.cpp" />
+    <ClCompile Include="그리디 알고리즘\1541 잃어버린 괄호.cpp" />
+    <ClCompile Include="그리디 알고리즘\1931 회의실 배정.cpp" />
+    <ClCompile Include="기타\1027 고층 건물.cpp" />
+    <ClCompile Include="기타\18221 교수님 저는 취업할래요.cpp" />
+    <ClCompile Include="기타\2169 로봇 조종하기.cpp" />
+    <ClCompile Include="누적 합\10986 나머지 합.cpp" />
+    <ClCompile Include="누적 합\11659 구간 합 구하기 4.cpp" />
+    <ClCompile Include="누적 합\11660 구간 합 구하기 5.cpp" />
+    <ClCompile Include="누적 합\16139 인간-컴퓨터 상호작용.cpp" />
+    <ClCompile Include="누적 합\2559 수열.cpp" />
+    <ClCompile Include="누적 합\25682 체스판 다시 칠하기 2.cpp" />
+    <ClCompile Include="동적 계획법 2\11049 행렬 곱셈 순서.cpp" />
+    <ClCompile Include="동적 계획법 2\11066 파일 합치기.cpp" />
+    <ClCompile Include="동적 계획법 2\1520 내리막 길.cpp" />
+    <ClCompile Include="동적 계획법 2\2293 동전 1.cpp" />
+    <ClCompile Include="동적 계획법 2\2629 양팔저울.cpp" />
+    <ClCompile Include="동적 계획법 2\7579 앱.cpp" />
+    <ClCompile Include="분할 정복\10830 행렬 제곱.cpp" />
+    <ClCompile Include="분할 정복\11401 이항 계수 3.cpp" />
+    <ClCompile Include="분할 정복\11444 피보나치 수 6.cpp" />
+    <ClCompile Include="분할 정복\1629 곱셈.cpp" />
+    <ClCompile Include="분할 정복\1780 종이의 개수.cpp" />
+    <ClCompile Include="분할 정복\1992 쿼드트리.cpp" />
+    <ClCompile Include="분할 정복\2630 색종이 만들기.cpp" />
+    <ClCompile Include="분할 정복\2740 행렬 곱셈.cpp" />
+    <ClCompile Include="분할 정복\6549 히스토그램에서 가장 큰 직사각형.cpp" />
+    <ClCompile Include="스택 2\1725 히스토그램.cpp" />
+    <ClCompile Include="스택 2\17298 오큰수.cpp" />
+    <ClCompile Include="스택 2\17299 오등큰수.cpp" />
+    <ClCompile Include="스택 2\9935 문자열 폭발.cpp" />
+    <ClCompile Include="우선순위 큐\11279 최대 힙.cpp" />
+    <ClCompile Include="우선순위 큐\11286 절댓값 힙.cpp" />
+    <ClCompile Include="우선순위 큐\1927 최소 힙.cpp" />
+    <ClCompile Include="이분 탐색\10816 숫자 카드 2.cpp" />
+    <ClCompile Include="이분 탐색\12015 가장 긴 증가하는 부분 수열 2.cpp" />
+    <ClCompile Include="이분 탐색\1300 K번째 수.cpp" />
+    <ClCompile Include="이분 탐색\1654 랜선 자르기.cpp" />
+    <ClCompile Include="이분 탐색\1920 수  찾기.cpp" />
+    <ClCompile Include="이분 탐색\2110 공유기 설치.cpp" />
+    <ClCompile Include="이분 탐색\2805 나무 자르기.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
@@ -53,27 +112,24 @@
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
-
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
   </ImportGroup>
-  <ImportGroup Label="Shared" >
+  <ImportGroup Label="Shared">
   </ImportGroup>
-    <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-      <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    </ImportGroup>
-    <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-      <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    </ImportGroup>
-    <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-      <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    </ImportGroup>
-    <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-      <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    </ImportGroup>
-
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
   <PropertyGroup Label="UserMacros" />
-
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
@@ -130,8 +186,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-
-  <ItemGroup></ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

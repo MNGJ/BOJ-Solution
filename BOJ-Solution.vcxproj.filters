@@ -13,5 +13,214 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\기타">
+      <UniqueIdentifier>{7211e684-cf3b-412f-a57a-dd5649d3ff48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\BackTracking">
+      <UniqueIdentifier>{b1c48641-ba08-4d65-8aef-726f2ad2bd0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Dynamic Programing">
+      <UniqueIdentifier>{32f1c047-13ac-4522-b45d-840be16a2383}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\그래프와 순회">
+      <UniqueIdentifier>{3265efbc-708a-4887-ab69-f60e6f89d956}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\그리디 알고리즘">
+      <UniqueIdentifier>{05204750-0fac-4231-a5f5-f83c2ea9b7aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\누적합">
+      <UniqueIdentifier>{a3c539cf-e7f6-4b84-98f4-b42486796ad2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\동적 계획법 2">
+      <UniqueIdentifier>{a3f4ef97-c57f-4d59-b849-40a17acde802}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\분할 정복">
+      <UniqueIdentifier>{90af14b2-4949-4b88-8333-6b90468a1f8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\스택 2">
+      <UniqueIdentifier>{59394842-1005-444b-82e5-3f12043ce246}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\우선순위 큐">
+      <UniqueIdentifier>{7a65b613-5850-4e58-8e9d-a9fe46f97345}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\이분 탐색">
+      <UniqueIdentifier>{c7d92a32-413d-4dba-9147-c55712d0ae12}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="기타\1027 고층 건물.cpp">
+      <Filter>소스 파일\기타</Filter>
+    </ClCompile>
+    <ClCompile Include="기타\2169 로봇 조종하기.cpp">
+      <Filter>소스 파일\기타</Filter>
+    </ClCompile>
+    <ClCompile Include="기타\18221 교수님 저는 취업할래요.cpp">
+      <Filter>소스 파일\기타</Filter>
+    </ClCompile>
+    <ClCompile Include="BackTracking\2580 sudoku BackTracking.cpp">
+      <Filter>소스 파일\BackTracking</Filter>
+    </ClCompile>
+    <ClCompile Include="BackTracking\9663 N-Queen.cpp">
+      <Filter>소스 파일\BackTracking</Filter>
+    </ClCompile>
+    <ClCompile Include="BackTracking\14888 연산자 끼워넣기 (BackTracking).cpp">
+      <Filter>소스 파일\BackTracking</Filter>
+    </ClCompile>
+    <ClCompile Include="BackTracking\14889 스타트와 링크 (BackTracking).cpp">
+      <Filter>소스 파일\BackTracking</Filter>
+    </ClCompile>
+    <ClCompile Include="Dynamic Programing\1463 1로 만들기.cpp">
+      <Filter>소스 파일\Dynamic Programing</Filter>
+    </ClCompile>
+    <ClCompile Include="Dynamic Programing\1932.cpp">
+      <Filter>소스 파일\Dynamic Programing</Filter>
+    </ClCompile>
+    <ClCompile Include="Dynamic Programing\2156 포도주 시식.cpp">
+      <Filter>소스 파일\Dynamic Programing</Filter>
+    </ClCompile>
+    <ClCompile Include="Dynamic Programing\2565 전깃줄.cpp">
+      <Filter>소스 파일\Dynamic Programing</Filter>
+    </ClCompile>
+    <ClCompile Include="Dynamic Programing\2579 계단오르기.cpp">
+      <Filter>소스 파일\Dynamic Programing</Filter>
+    </ClCompile>
+    <ClCompile Include="Dynamic Programing\9251 LCS.cpp">
+      <Filter>소스 파일\Dynamic Programing</Filter>
+    </ClCompile>
+    <ClCompile Include="Dynamic Programing\10844 쉬운 계단 수.cpp">
+      <Filter>소스 파일\Dynamic Programing</Filter>
+    </ClCompile>
+    <ClCompile Include="Dynamic Programing\11053 가장 긴 증가하는 부분 수열.cpp">
+      <Filter>소스 파일\Dynamic Programing</Filter>
+    </ClCompile>
+    <ClCompile Include="Dynamic Programing\11054 가장 긴 바이토닉 부분 수열.cpp">
+      <Filter>소스 파일\Dynamic Programing</Filter>
+    </ClCompile>
+    <ClCompile Include="Dynamic Programing\12865 평범한 배낭.cpp">
+      <Filter>소스 파일\Dynamic Programing</Filter>
+    </ClCompile>
+    <ClCompile Include="그래프와 순회\24479 알고리즘 수업 - 깊이 우선 탐색 1.cpp">
+      <Filter>소스 파일\그래프와 순회</Filter>
+    </ClCompile>
+    <ClCompile Include="그리디 알고리즘\1541 잃어버린 괄호.cpp">
+      <Filter>소스 파일\그리디 알고리즘</Filter>
+    </ClCompile>
+    <ClCompile Include="그리디 알고리즘\1931 회의실 배정.cpp">
+      <Filter>소스 파일\그리디 알고리즘</Filter>
+    </ClCompile>
+    <ClCompile Include="그리디 알고리즘\11047 동전0.cpp">
+      <Filter>소스 파일\그리디 알고리즘</Filter>
+    </ClCompile>
+    <ClCompile Include="그리디 알고리즘\11399 ATM.cpp">
+      <Filter>소스 파일\그리디 알고리즘</Filter>
+    </ClCompile>
+    <ClCompile Include="그리디 알고리즘\13305 주유소.cpp">
+      <Filter>소스 파일\그리디 알고리즘</Filter>
+    </ClCompile>
+    <ClCompile Include="누적 합\2559 수열.cpp">
+      <Filter>소스 파일\누적합</Filter>
+    </ClCompile>
+    <ClCompile Include="누적 합\10986 나머지 합.cpp">
+      <Filter>소스 파일\누적합</Filter>
+    </ClCompile>
+    <ClCompile Include="누적 합\11659 구간 합 구하기 4.cpp">
+      <Filter>소스 파일\누적합</Filter>
+    </ClCompile>
+    <ClCompile Include="누적 합\11660 구간 합 구하기 5.cpp">
+      <Filter>소스 파일\누적합</Filter>
+    </ClCompile>
+    <ClCompile Include="누적 합\16139 인간-컴퓨터 상호작용.cpp">
+      <Filter>소스 파일\누적합</Filter>
+    </ClCompile>
+    <ClCompile Include="누적 합\25682 체스판 다시 칠하기 2.cpp">
+      <Filter>소스 파일\누적합</Filter>
+    </ClCompile>
+    <ClCompile Include="동적 계획법 2\1520 내리막 길.cpp">
+      <Filter>소스 파일\동적 계획법 2</Filter>
+    </ClCompile>
+    <ClCompile Include="동적 계획법 2\2293 동전 1.cpp">
+      <Filter>소스 파일\동적 계획법 2</Filter>
+    </ClCompile>
+    <ClCompile Include="동적 계획법 2\2629 양팔저울.cpp">
+      <Filter>소스 파일\동적 계획법 2</Filter>
+    </ClCompile>
+    <ClCompile Include="동적 계획법 2\7579 앱.cpp">
+      <Filter>소스 파일\동적 계획법 2</Filter>
+    </ClCompile>
+    <ClCompile Include="동적 계획법 2\11049 행렬 곱셈 순서.cpp">
+      <Filter>소스 파일\동적 계획법 2</Filter>
+    </ClCompile>
+    <ClCompile Include="동적 계획법 2\11066 파일 합치기.cpp">
+      <Filter>소스 파일\동적 계획법 2</Filter>
+    </ClCompile>
+    <ClCompile Include="분할 정복\1629 곱셈.cpp">
+      <Filter>소스 파일\분할 정복</Filter>
+    </ClCompile>
+    <ClCompile Include="분할 정복\1780 종이의 개수.cpp">
+      <Filter>소스 파일\분할 정복</Filter>
+    </ClCompile>
+    <ClCompile Include="분할 정복\1992 쿼드트리.cpp">
+      <Filter>소스 파일\분할 정복</Filter>
+    </ClCompile>
+    <ClCompile Include="분할 정복\2630 색종이 만들기.cpp">
+      <Filter>소스 파일\분할 정복</Filter>
+    </ClCompile>
+    <ClCompile Include="분할 정복\2740 행렬 곱셈.cpp">
+      <Filter>소스 파일\분할 정복</Filter>
+    </ClCompile>
+    <ClCompile Include="분할 정복\6549 히스토그램에서 가장 큰 직사각형.cpp">
+      <Filter>소스 파일\분할 정복</Filter>
+    </ClCompile>
+    <ClCompile Include="분할 정복\10830 행렬 제곱.cpp">
+      <Filter>소스 파일\분할 정복</Filter>
+    </ClCompile>
+    <ClCompile Include="분할 정복\11401 이항 계수 3.cpp">
+      <Filter>소스 파일\분할 정복</Filter>
+    </ClCompile>
+    <ClCompile Include="분할 정복\11444 피보나치 수 6.cpp">
+      <Filter>소스 파일\분할 정복</Filter>
+    </ClCompile>
+    <ClCompile Include="스택 2\1725 히스토그램.cpp">
+      <Filter>소스 파일\스택 2</Filter>
+    </ClCompile>
+    <ClCompile Include="스택 2\9935 문자열 폭발.cpp">
+      <Filter>소스 파일\스택 2</Filter>
+    </ClCompile>
+    <ClCompile Include="스택 2\17298 오큰수.cpp">
+      <Filter>소스 파일\스택 2</Filter>
+    </ClCompile>
+    <ClCompile Include="스택 2\17299 오등큰수.cpp">
+      <Filter>소스 파일\스택 2</Filter>
+    </ClCompile>
+    <ClCompile Include="우선순위 큐\1927 최소 힙.cpp">
+      <Filter>소스 파일\우선순위 큐</Filter>
+    </ClCompile>
+    <ClCompile Include="우선순위 큐\11279 최대 힙.cpp">
+      <Filter>소스 파일\우선순위 큐</Filter>
+    </ClCompile>
+    <ClCompile Include="우선순위 큐\11286 절댓값 힙.cpp">
+      <Filter>소스 파일\우선순위 큐</Filter>
+    </ClCompile>
+    <ClCompile Include="이분 탐색\1300 K번째 수.cpp">
+      <Filter>소스 파일\이분 탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="이분 탐색\1654 랜선 자르기.cpp">
+      <Filter>소스 파일\이분 탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="이분 탐색\1920 수  찾기.cpp">
+      <Filter>소스 파일\이분 탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="이분 탐색\2110 공유기 설치.cpp">
+      <Filter>소스 파일\이분 탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="이분 탐색\2805 나무 자르기.cpp">
+      <Filter>소스 파일\이분 탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="이분 탐색\10816 숫자 카드 2.cpp">
+      <Filter>소스 파일\이분 탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="이분 탐색\12015 가장 긴 증가하는 부분 수열 2.cpp">
+      <Filter>소스 파일\이분 탐색</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
