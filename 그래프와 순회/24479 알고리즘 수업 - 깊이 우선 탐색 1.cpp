@@ -1,29 +1,58 @@
 #include <iostream>
-#include <string>
+#include <algorithm>
+#include <vector>
 using namespace std;
 
 int N, M, R;
 
-int V_set[100001];
-int E_set[200001];
-bool visited[200001];
+vector<int> board[100001];
+int result[100001];
+bool visited[100001];
+int cnt = 0;
 
-void DFS(int V, int E, int R) // V : 정점 집합, E : 간선 집합, R : 시작 정점
+void Input()
 {
-	visited[R] = true;
+	cin >> N >> M >> R;
+	int u, v;
+	for (int i = 1; i <= M; i++)
+	{
+		cin >> u >> v;
+		board[u].push_back(v);
+		board[v].push_back(u);
+	}
+	for (int i = 1; i <= N; i++)
+		sort(board[i].begin(), board[i].end());
+}
+
+void DFS(int node)
+{
+	if (visited[node])
+		return;
+
+	visited[node] = true;
+	cnt++;
+	result[node] = cnt;
+	for (int x = 0; x < board[node].size(); x++)
+	{
+		DFS(board[node][x]);
+	}
+}
+
+void solve()
+{
+	for (int i = 1; i <= N; i++)
+		cout << result[i] << '\n';
 }
 
 int main()
 {
 	ios_base::sync_with_stdio(false);
 	cin.tie(NULL);
+	cout.tie(NULL);
 
-	cin >> N >> M >> R;
-
-	for (int i = 0; i < M; i++)
-	{
-
-	}
+	Input();
+	DFS(R);
+	solve();
 
 	return 0;
 }
