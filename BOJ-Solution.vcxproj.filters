@@ -240,5 +240,11 @@
     <ClCompile Include="기타\19637 IF문 좀 대신 써줘.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="그래프와 순회\24445 알고리즘 수업 - 너비 우선 탐색 2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="그래프와 순회\2606 바이러스.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
