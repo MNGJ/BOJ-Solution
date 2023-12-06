@@ -246,5 +246,8 @@
     <ClCompile Include="그래프와 순회\2606 바이러스.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="그래프와 순회\1260 DFS와 BFS.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

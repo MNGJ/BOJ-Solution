@@ -61,6 +61,7 @@
     <ClCompile Include="Dynamic Programing\9251 LCS.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="그래프와 순회\1260 DFS와 BFS.cpp" />
     <ClCompile Include="그래프와 순회\24444 알고리즘 수업 - 너비 우선 탐색 1.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>

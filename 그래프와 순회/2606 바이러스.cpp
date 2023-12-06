@@ -20,7 +20,7 @@ void Input()
 	}
 }
 
-void DPS(int node)
+void DFS(int node)
 {
 	if (visited[node])
 		return;
@@ -28,7 +28,7 @@ void DPS(int node)
 	cnt++;
 	for (int i = 0; i < board[node].size(); i++)
 	{
-		DPS(board[node][i]);
+		DFS(board[node][i]);
 	}
 }
 
@@ -38,7 +38,7 @@ int main()
 	cin.tie(NULL);
 
 	Input();
-	DPS(1);
+	DFS(1);
 
 	cout << cnt-1;
 
