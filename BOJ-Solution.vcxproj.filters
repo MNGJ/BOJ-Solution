@@ -258,5 +258,8 @@
     <ClCompile Include="기타\21736 헌내기는 친구가 필요해.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="기타\18111 마인크래프트.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
