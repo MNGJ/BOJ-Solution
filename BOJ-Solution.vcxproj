@@ -61,7 +61,9 @@
     <ClCompile Include="Dynamic Programing\9251 LCS.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="그래프와 순회\1260 DFS와 BFS.cpp" />
+    <ClCompile Include="그래프와 순회\1260 DFS와 BFS.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="그래프와 순회\24444 알고리즘 수업 - 너비 우선 탐색 1.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -77,6 +79,7 @@
     <ClCompile Include="그래프와 순회\2606 바이러스.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="그래프와 순회\2667 단지번호붙이기.cpp" />
     <ClCompile Include="그리디 알고리즘\11047 동전0.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
