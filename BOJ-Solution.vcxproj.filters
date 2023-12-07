@@ -252,5 +252,8 @@
     <ClCompile Include="그래프와 순회\2667 단지번호붙이기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="기타\5525 IOIOI.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
