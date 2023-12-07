@@ -255,5 +255,8 @@
     <ClCompile Include="기타\5525 IOIOI.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="기타\21736 헌내기는 친구가 필요해.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
