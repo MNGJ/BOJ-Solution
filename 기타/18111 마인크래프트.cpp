@@ -6,19 +6,13 @@ int N, M, B;
 int board[500][500];
 int cnt = 0;
 map<int, int> result;
-int sum = 0;
-int height;
 
 void Input()
 {
 	cin >> N >> M >> B;
 	for(int i = 0; i < N; i++)
 		for (int j = 0; j < M; j++)
-		{
 			cin >> board[i][j];
-			sum += board[i][j];
-		}
-	height = sum / (N * M);
 }
 
 void solve()
@@ -28,7 +22,6 @@ void solve()
 		int block = B;
 		cnt = 0;
 		for (int i = 0; i < N; i++)
-		{
 			for (int j = 0; j < M; j++)
 			{
 				if (k == board[i][j])
@@ -44,13 +37,8 @@ void solve()
 					cnt = cnt + 2 * (board[i][j] - k);
 				}
 			}
-		}
-		if (block < 0)
-			continue;
-		else
-		{
-			result.insert({ cnt, k });
-		}
+		if (block < 0) continue;
+		else result.insert({ cnt, k });
 	}
 }
 
