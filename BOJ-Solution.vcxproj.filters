@@ -267,5 +267,8 @@
     <ClCompile Include="기타\14940 쉬운 최단거리.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="그래프와 순회\2178 미로 탐색.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
