@@ -264,5 +264,8 @@
     <ClCompile Include="그래프와 순회\1012 유기농 배추.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="기타\14940 쉬운 최단거리.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
