@@ -270,5 +270,8 @@
     <ClCompile Include="그래프와 순회\2178 미로 탐색.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="기타\1246 온라인 판매.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
