@@ -276,5 +276,8 @@
     <ClCompile Include="기타\14469 소가 길을 건너간 이유 3.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="기타\20529 가장 가까운 세 사람의 심리적 거리.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
