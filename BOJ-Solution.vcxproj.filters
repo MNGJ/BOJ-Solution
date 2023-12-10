@@ -279,5 +279,8 @@
     <ClCompile Include="기타\20529 가장 가까운 세 사람의 심리적 거리.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="기타\14500 테트로미노.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
