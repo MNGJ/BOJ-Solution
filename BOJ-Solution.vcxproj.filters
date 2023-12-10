@@ -282,5 +282,8 @@
     <ClCompile Include="기타\14500 테트로미노.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="기타\17952 과제는 끝나지 않아!.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
