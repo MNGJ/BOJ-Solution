@@ -54,13 +54,13 @@ void BFS()
 	visited[0][0] = true;
 	while (!q.empty())
 	{
-		int x = q.front().first;
-		int y = q.front().second;
+		int y = q.front().first;
+		int x = q.front().second;
 		q.pop();
 		for (int i = 0; i < 4; i++)
 		{
-			int nx = dx[i] + x;
 			int ny = dy[i] + y;
+			int nx = dx[i] + x;
 			if (nx < 0 || nx >= w + 2 || ny < 0 || ny >= h + 2)
 				continue;
 			if (visited[ny][nx] || map[ny][nx] == '*')
@@ -70,7 +70,7 @@ void BFS()
 				result++;
 				map[ny][nx] = '.';
 				visited[ny][nx] = true;
-				q.push(make_pair(nx, ny));
+				q.push(make_pair(ny, nx));
 				continue;
 			}
 			if (map[ny][nx] >= 'a' && map[ny][nx] <= 'z')
@@ -80,7 +80,7 @@ void BFS()
 				while (!q.empty())
 					q.pop();
 				map[ny][nx] = '.';
-				q.push(make_pair(nx, ny));
+				q.push(make_pair(ny, nx));
 				continue;
 			}
 			if (map[ny][nx] >= 'A' && map[ny][nx] <= 'Z')
@@ -91,7 +91,7 @@ void BFS()
 					{
 						map[ny][nx] = '.';
 						visited[ny][nx] = true;
-						q.push(make_pair(nx, ny));
+						q.push(make_pair(ny, nx));
 						break;
 					}
 				}
@@ -100,7 +100,7 @@ void BFS()
 			if (map[ny][nx] == '.')
 			{
 				visited[ny][nx] = true;
-				q.push(make_pair(nx, ny));
+				q.push(make_pair(ny, nx));
 				continue;
 			}
 		}
