@@ -315,5 +315,8 @@
     <ClCompile Include="기타\1138 한 줄로 서기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="기타\6236 용돈 관리.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
