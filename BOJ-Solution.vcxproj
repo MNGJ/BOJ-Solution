@@ -139,6 +139,7 @@
     <ClCompile Include="기타\1138 한 줄로 서기.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="기타\1189 컴백홈.cpp" />
     <ClCompile Include="기타\1198 삼각형으로 자르기.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
