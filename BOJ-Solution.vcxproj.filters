@@ -393,5 +393,8 @@
     <ClCompile Include="동적 계획법과 최단거리 역추적\14002 가장 긴 증가하는 부분 수열 4.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="동적 계획법과 최단거리 역추적\14003 가장 긴 증가하는 부분 수열 5.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
