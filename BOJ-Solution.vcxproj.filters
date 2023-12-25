@@ -399,5 +399,11 @@
     <ClCompile Include="동적 계획법과 최단거리 역추적\9252 LCS 2.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="동적 계획법과 최단거리 역추적\2618 경찰차.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="기타\1527 금민수의 개수.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
