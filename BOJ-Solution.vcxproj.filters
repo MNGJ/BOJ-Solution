@@ -444,5 +444,8 @@
     <ClCompile Include="유니온 파인드\1717 집합의 표현.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="기타\2023 신기한 소수.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
