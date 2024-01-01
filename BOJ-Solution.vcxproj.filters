@@ -447,5 +447,8 @@
     <ClCompile Include="기타\2023 신기한 소수.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="기타\2022 사다리.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
