@@ -441,5 +441,8 @@
     <ClCompile Include="기타\1389 케빈 베이컨의 6단계 법칙.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="유니온 파인드\1717 집합의 표현.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
