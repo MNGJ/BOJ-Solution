@@ -459,5 +459,8 @@
     <ClCompile Include="유니온 파인드\4195 친구 네트워크.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="유니온 파인드\20040 사이클 게임.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
