@@ -471,5 +471,8 @@
     <ClCompile Include="최소 신장 트리\1197 최소 스패닝 트리.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="기타\11729 하노이 탑 이동 순서.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
