@@ -495,5 +495,8 @@
     <ClCompile Include="트리에서의 동적 계획법\2533 사회망 서비스(SNS).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="트리에서의 동적 계획법\1949 우수 마을.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
