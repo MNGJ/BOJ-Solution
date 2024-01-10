@@ -501,5 +501,8 @@
     <ClCompile Include="기하 2\2166 다각형의 면적.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="기하 2\11758 CCW.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
