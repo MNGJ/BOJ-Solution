@@ -504,5 +504,8 @@
     <ClCompile Include="기하 2\11758 CCW.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="기하 2\25308 방사형 그래프.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
