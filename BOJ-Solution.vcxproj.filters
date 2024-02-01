@@ -522,5 +522,8 @@
     <ClCompile Include="기하 2\20149 선분 교차 3.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="기하 2\2162 선분 그룹.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
