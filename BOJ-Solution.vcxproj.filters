@@ -534,5 +534,8 @@
     <ClCompile Include="기타\17503 맥주 축제%28우선순위 큐%29.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="기타\17503 맥주 축제(이분 탐색).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
